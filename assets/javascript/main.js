@@ -1,5 +1,12 @@
 $('.cover').paroller();
 
+new SmoothScroll('a[href*="#"]');
+
+$(".nav-item").click(function () {
+  $(".nav-item").removeClass("active");
+  $(this).addClass("active");
+});
+
 $("#contact-form").submit((e) => {
   e.preventDefault();
 
