@@ -1,13 +1,35 @@
-$('.cover').paroller();
+$(".cover").paroller();
 
 new SmoothScroll('a[href*="#"]');
 
-$(".nav-item").click(function () {
+$(".nav-item").click(function() {
   $(".nav-item").removeClass("active");
   $(this).addClass("active");
 });
 
-$("#contact-form").submit((e) => {
+$(document).ready(function() {
+  $(window).scroll(function() {
+    let scroll = $(window).scrollTop() + 150;
+    let homeOffset = $("#home").offset().top;
+    let aboutMeOffset = $("#about-me").offset().top;
+    let portfolioOffset = $("#portfolio").offset().top;
+    let contactOffset = $("#contact").offset().top - 150;
+    console.log("offset", contactOffset);
+
+    $(".nav-link").removeClass("active");
+    if (scroll >= contactOffset) {
+      $("#nav-link-contact").addClass("active");
+    } else if (scroll >= portfolioOffset) {
+      $("#nav-link-portfolio").addClass("active");
+    } else if (scroll >= aboutMeOffset) {
+      $("#nav-link-about-me").addClass("active");
+    } else if (scroll >= homeOffset) {
+      $("#nav-link-home").addClass("active");
+    }
+  });
+});
+
+$("#contact-form").submit(e => {
   e.preventDefault();
 
   const form = $(e.currentTarget);
@@ -17,9 +39,15 @@ $("#contact-form").submit((e) => {
 
     let myEmail = "jibm_82@yahoo.com.mx";
 
-    let name = $("#name").val().trim();
-    let email = $("#email").val().trim();
-    let message = $("#message").val().trim();
+    let name = $("#name")
+      .val()
+      .trim();
+    let email = $("#email")
+      .val()
+      .trim();
+    let message = $("#message")
+      .val()
+      .trim();
 
     Email.send(
       myEmail,
@@ -41,4 +69,3 @@ $("#contact-form").submit((e) => {
     );
   }
 });
-
