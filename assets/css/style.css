@@ -178,6 +178,14 @@ a.section_scroll:focus, a:hover{color: #ffffff;outline: 0;}
   display: block;
   flex-basis: 30%;
   margin-bottom: 2em;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.card-deck .card-footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 /* Contact */
