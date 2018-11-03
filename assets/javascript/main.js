@@ -14,7 +14,6 @@ $(document).ready(function() {
     let aboutMeOffset = $("#about-me").offset().top;
     let portfolioOffset = $("#portfolio").offset().top;
     let contactOffset = $("#contact").offset().top - 150;
-    console.log("offset", contactOffset);
 
     $(".nav-link").removeClass("active");
     if (scroll >= contactOffset) {
