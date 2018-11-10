@@ -203,6 +203,10 @@ a:hover {
   padding-bottom: 50px;
 }
 
+.card-deck .card-img-top{
+  border-bottom: 1px solid #ccc;
+}
+
 .card-deck .card-footer {
   position: absolute;
   bottom: 0px;
