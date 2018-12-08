@@ -1,442 +1,682 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<header>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <header>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Jorge Baez Portfolio</title>
-</header>
+  </header>
 
-<body>
+  <body>
     <div class="wrapper">
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
-            <div class="container">
-                <a class="navbar-brand" href="#Home">
-                    <span class="brand_title">Jorge Báez</span>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#Home">
+            <span class="brand_title">Jorge Báez</span>
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#mobile-navbar-collapse"
+            aria-controls="mobile-navbar-collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a id="nav-link-home" class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a id="nav-link-about-me" class="nav-link" href="#about-me"
+                  >About Me</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="nav-link-portfolio" class="nav-link" href="#portfolio"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="nav-link-contact" class="nav-link" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home" class="cover" data-paroller-factor="0.3">
+        <div class="cover_wrap">
+          <div class="cover_info d-flex h-100 w-100 mx-auto flex-column">
+            <div class="cover_content my-auto">
+              <div class="container">
+                <div class="col-sm-10 col-md-10 col-lg-10">
+                  <h1 class="cover_title">
+                    LETS WORK ON SOMETHING AWESOME TODAY
+                  </h1>
+                  <h3 class="cover_subtitle">
+                    Full Stack Developer based in Puebla MEX
+                  </h3>
+                  <a href="#about-me" class="btn btn-outline-light cover_cta">
+                    Know More &raquo;
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="section_scroll" href="#about-me"
+          ><i class="fa fa-angle-down fa-4x"></i
+        ></a>
+      </section>
+
+      <section id="about-me">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <h2 class="section_title">ABOUT ME</h2>
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="row">
+              <div class="col-12 col-sm-5 col-md-5">
+                <img
+                  class="profile-cover"
+                  src="https://ca.slack-edge.com/TAXHPJA0Z-UAY95KLQ5-fdf378c97c83-512"
+                  alt="Image of Jorge Báez"
+                />
+              </div>
+              <div class="col-12 col-sm-7 col-md-7">
+                <h2 class="profile_title">Jorge Báez</h2>
+                <h4 class="profile_subtitle">Full Stack Developer</h4>
+                <p>
+                  Hello! I'm Jorge, one of the students of the latest
+                  Tecnológico de Monterrey Coding Boot Camp. I've been a web
+                  developer for the past 8 years.
+                </p>
+                <p>
+                  I entered the program because I want to get a better job,
+                  acquire new skill sets and learn how to do things the right
+                  way. I also want to get involved with other developers and to
+                  expand my networking.
+                </p>
+                <p>
+                  I'm very passionate about web development and I love to learn
+                  all about new technologies. When I'm not coding, I like to
+                  explore new places with my girlfriend. I also love music, I
+                  know how to play the guitar, piano, and drums.
+                </p>
+
+                <div class="social">
+                  <ul class="social_ico">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/jorge-b%C3%A1ez-2399ba60/"
+                        target="_blank"
+                        title="Linkedin"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/jibm82"
+                        target="_blank"
+                        title="Github"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/jibm82"
+                        target="_blank"
+                        title="Facebook"
+                      >
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/jibm_82"
+                        target="_blank"
+                        title="Twitter"
+                      >
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="light-background">
+        <div class="container">
+          <div class="col-12 mb-4">
+            <h2 class="section_title">MY PORTFOLIO</h2>
+          </div>
+
+          <div class="card-deck">
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/bloodmap.jpg"
+                alt="Bloodmap image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bloodmap (Team project)</h5>
+                <p>
+                  Node JS Web Application for connecting blood donors with
+                  people in need.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://ancient-journey-70898.herokuapp.com/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
                 </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-navbar-collapse"
-                    aria-controls="mobile-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="mobile-navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a id="nav-link-home" class="nav-link" href="#home">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="nav-link-about-me" class="nav-link" href="#about-me">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="nav-link-portfolio" class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a id="nav-link-contact" class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/project-2"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
             </div>
-        </nav>
-
-        <section id="home" class="cover" data-paroller-factor="0.3">
-            <div class="cover_wrap">
-                <div class="cover_info d-flex h-100 w-100 mx-auto flex-column">
-                    <div class="cover_content my-auto">
-                        <div class="container">
-                            <div class="col-sm-10 col-md-10 col-lg-10">
-                                <h1 class="cover_title">LETS WORK ON SOMETHING AWESOME TODAY</h1>
-                                <h3 class="cover_subtitle">Full Stack Developer based in Puebla MEX</h3>
-                                <a href="#about-me" class="btn btn-outline-light cover_cta">
-                                    Know More &raquo;
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/burger-tracker.jpg"
+                alt="Burger Tracker image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Burger Tracker 2</h5>
+                <p>
+                  Node JS Web Application for keeping track of burgers using
+                  sequelize.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://immense-beyond-55539.herokuapp.com"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/sequelized-burger"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
             </div>
-
-            <a class="section_scroll" href="#about-me"><i class="fa fa-angle-down fa-4x"></i></a>
-        </section>
-
-        <section id="about-me">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mb-4">
-                        <h2 class="section_title">ABOUT ME</h2>
-                    </div>
-                </div>
-
-                <div class="profile">
-                    <div class="row">
-                        <div class="col-12 col-sm-5 col-md-5">
-                            <img class="profile-cover" src="https://ca.slack-edge.com/TAXHPJA0Z-UAY95KLQ5-fdf378c97c83-512"
-                                alt="Image of Jorge Báez">
-                        </div>
-                        <div class="col-12 col-sm-7 col-md-7">
-                            <h2 class="profile_title">Jorge Báez</h2>
-                            <h4 class="profile_subtitle">Full Stack Developer</h4>
-                            <p>
-                                Hello! I'm Jorge, one of the students of the latest Tecnológico de Monterrey Coding
-                                Boot Camp. I've been a web
-                                developer
-                                for the past 8 years.
-                            </p>
-                            <p>
-                                I entered the program because I want to get a better job, acquire new skill sets and
-                                learn how to do things the
-                                right way.
-                                I also want to get involved with other developers and to expand my networking.
-                            </p>
-                            <p>
-                                I'm very passionate about web development and I love to learn all about new
-                                technologies. When I'm not coding, I
-                                like to
-                                explore new places with my girlfriend. I also love music, I know how to play the
-                                guitar, piano, and drums.
-                            </p>
-
-                            <div class="social">
-                                <ul class="social_ico">
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/jorge-b%C3%A1ez-2399ba60/" target="_blank"
-                                            title="Linkedin">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/jibm82" target="_blank" title="Github">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/jibm82" target="_blank" title="Facebook">
-                                            <i class="fab fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/jibm_82" target="_blank" title="Twitter">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/burger-tracker.jpg"
+                alt="Burger Tracker image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Burger Tracker</h5>
+                <p>Node JS Web Application for keeping track of burgers.</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://shielded-tor-83590.herokuapp.com/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/burger"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
             </div>
-        </section>
-
-        <section id="portfolio" class="light-background">
-            <div class="container">
-                <div class="col-12 mb-4">
-                    <h2 class="section_title">MY PORTFOLIO</h2>
-                </div>
-
-                <div class="card-deck">
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/burger-tracker.jpg" alt="Burger Tracker image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Burger Tracker 2</h5>
-                            <p>
-                                Node JS Web Application for keeping track of burgers using sequelize.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://immense-beyond-55539.herokuapp.com" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/sequelized-burger" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/burger-tracker.jpg" alt="Burger Tracker image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Burger Tracker</h5>
-                            <p>
-                                Node JS Web Application for keeping track of burgers.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://shielded-tor-83590.herokuapp.com/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/burger" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/friend-finder.jpg" alt="Friend Finder image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Friend Finder</h5>
-                            <p>
-                                Node JS Web Application for finding new friends
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://nodejs-friend-finder.herokuapp.com/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/friend-finder" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/bamazon.jpg" alt="Bamazon image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Bamazon</h5>
-                            <p>
-                                Node JS Command Line Shopping Application
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://github.com/jibm82/bamazon" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/cli-word-guess.jpg" alt="Cli Word Guess image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">CLI Word Guess</h5>
-                            <p>
-                                Node JS Command Line version of the Word Guess Game
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://github.com/jibm82/cli-word-guess" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/liri-bot.jpg" alt="Liri image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">LIRI</h5>
-                            <p>
-                                Node JS Command Line text based assistant
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://github.com/jibm82/liri-bot" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/mixtape.jpg" alt="Image of Mixtape Website">
-                        <div class="card-body">
-                            <h5 class="card-title">Mixtape (Team project)</h5>
-                            <p>
-                                Spotify based application that allows a user to share a
-                                playlist so others can interact by adding songs and
-                                downvoting them.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://edumoran.github.io/Mixtape" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/edumoran/Mixtape" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/rps.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Rock Paper Scissors</h5>
-                            <p>
-                                Real time two-player game of Rock-Paper-Scissors with chat support.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://jibm82.github.io/RPS-Multiplayer/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/RPS-Multiplayer" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/giftastic.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">GifTastic</h5>
-                            <p>
-                                Search and animate gifs of your favourite superheros using the Giphy API.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://jibm82.github.io/GifTastic/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/GifTastic/" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/star-wars-rpg.jpg" alt="Image of Mixtape Website">
-                        <div class="card-body">
-                            <h5 class="card-title">Star Wars RPG</h5>
-                            <p>
-                                Turn-based RPG based on Star Wars, master the force by defeating
-                                all the enemies.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://jibm82.github.io/unit-4-game/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/unit-4-game" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/trivia-game.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Trivia Game</h5>
-                            <p>
-                                Javascript trivia game with dynamic questions.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://jibm82.github.io/TriviaGame/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/TriviaGame" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="./assets/images/guessflix.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Guessflix</h5>
-                            <p>
-                                Netflix based version of the hangman game. Guess movies and tv shows.
-                            </p>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-dark" href="https://jibm82.github.io/Word-Guess-Game/" target="_blank">
-                                <i class="fa fa-link"></i> Visit
-                            </a>
-                            <a class="btn btn-dark" href="https://github.com/jibm82/Word-Guess-Game" target="_blank">
-                                <i class="fab fa-github"></i> Github
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/friend-finder.jpg"
+                alt="Friend Finder image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Friend Finder</h5>
+                <p>Node JS Web Application for finding new friends</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://nodejs-friend-finder.herokuapp.com/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/friend-finder"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
             </div>
-        </section>
-
-        <footer id="contact">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 mb-4">
-                        <h2 class="section_title">CONTACT ME</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-8 col-md-6">
-                        <div class="contact_container">
-                            <h4 class="contact_title">Let's get in touch</h4>
-
-                            <div class="contact_info">
-                                <div class="contact-icon">
-                                    <i class="fa fa-map-marker"></i>
-                                </div>
-                                <p class="contact_details">Puebla, MEX</p>
-                            </div>
-                            <div class="contact_info">
-                                <div class="contact-icon">
-                                    <i class="fa fa-envelope"></i>
-                                </div>
-                                <p class="contact_details"><a class="link" href="mailto:jibm_82@yahoo.com.mx">jibm_82@yahoo.com.mx</a></p>
-                            </div>
-                            <div class="contact_info">
-                                <div class="contact-icon">
-                                    <i class="fa fa-phone"></i>
-                                </div>
-                                <p class="contact_details"> +52-222-3-63-04-54</p>
-                            </div>
-
-                            <div class="social">
-                                <ul class="social_ico">
-                                    <li>
-                                        <a href="https://www.linkedin.com/in/jorge-b%C3%A1ez-2399ba60/" target="_blank"
-                                            title="Linkedin">
-                                            <i class="fab fa-linkedin"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/jibm82" target="_blank" title="Github">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://www.facebook.com/jibm82" target="_blank" title="Facebook">
-                                            <i class="fab fa-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://twitter.com/jibm_82" target="_blank" title="Twitter">
-                                            <i class="fab fa-twitter"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4 col-md-6">
-                        <div class="contact_container">
-                            <form id="contact-form">
-                                <div class="field">
-                                    <input type="text" id="name" class="form-control" name="name" placeholder="Enter Name"
-                                        required>
-                                </div>
-
-                                <div class="field">
-                                    <input type="email" id="email" class="form-control" name="email" placeholder="Enter Email"
-                                        required>
-                                </div>
-
-                                <div class="field">
-                                    <textarea id="message" class="form-control" name="message" placeholder="Enter Message"
-                                        rows="6" required></textarea>
-                                </div>
-
-                                <div class="field">
-                                    <button type="submit" class="btn btn-dark">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/bamazon.jpg"
+                alt="Bamazon image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bamazon</h5>
+                <p>Node JS Command Line Shopping Application</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/bamazon"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
             </div>
-        </footer>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/cli-word-guess.jpg"
+                alt="Cli Word Guess image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">CLI Word Guess</h5>
+                <p>Node JS Command Line version of the Word Guess Game</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/cli-word-guess"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/liri-bot.jpg"
+                alt="Liri image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">LIRI</h5>
+                <p>Node JS Command Line text based assistant</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/liri-bot"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/mixtape.jpg"
+                alt="Image of Mixtape Website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mixtape (Team project)</h5>
+                <p>
+                  Spotify based application that allows a user to share a
+                  playlist so others can interact by adding songs and downvoting
+                  them.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://edumoran.github.io/Mixtape"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/edumoran/Mixtape"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/rps.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Rock Paper Scissors</h5>
+                <p>
+                  Real time two-player game of Rock-Paper-Scissors with chat
+                  support.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://jibm82.github.io/RPS-Multiplayer/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/RPS-Multiplayer"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/giftastic.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">GifTastic</h5>
+                <p>
+                  Search and animate gifs of your favourite superheros using the
+                  Giphy API.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://jibm82.github.io/GifTastic/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/GifTastic/"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/star-wars-rpg.jpg"
+                alt="Image of Mixtape Website"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Star Wars RPG</h5>
+                <p>
+                  Turn-based RPG based on Star Wars, master the force by
+                  defeating all the enemies.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://jibm82.github.io/unit-4-game/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/unit-4-game"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/trivia-game.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Trivia Game</h5>
+                <p>Javascript trivia game with dynamic questions.</p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://jibm82.github.io/TriviaGame/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/TriviaGame"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                class="card-img-top"
+                src="./assets/images/guessflix.jpg"
+                alt="Card image cap"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Guessflix</h5>
+                <p>
+                  Netflix based version of the hangman game. Guess movies and tv
+                  shows.
+                </p>
+              </div>
+              <div class="card-footer">
+                <a
+                  class="btn btn-dark"
+                  href="https://jibm82.github.io/Word-Guess-Game/"
+                  target="_blank"
+                >
+                  <i class="fa fa-link"></i> Visit
+                </a>
+                <a
+                  class="btn btn-dark"
+                  href="https://github.com/jibm82/Word-Guess-Game"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i> Github
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mb-4">
+              <h2 class="section_title">CONTACT ME</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-sm-8 col-md-6">
+              <div class="contact_container">
+                <h4 class="contact_title">Let's get in touch</h4>
+
+                <div class="contact_info">
+                  <div class="contact-icon">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <p class="contact_details">Puebla, MEX</p>
+                </div>
+                <div class="contact_info">
+                  <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+                  <p class="contact_details">
+                    <a class="link" href="mailto:jibm_82@yahoo.com.mx"
+                      >jibm_82@yahoo.com.mx</a
+                    >
+                  </p>
+                </div>
+                <div class="contact_info">
+                  <div class="contact-icon"><i class="fa fa-phone"></i></div>
+                  <p class="contact_details">+52-222-3-63-04-54</p>
+                </div>
+
+                <div class="social">
+                  <ul class="social_ico">
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/jorge-b%C3%A1ez-2399ba60/"
+                        target="_blank"
+                        title="Linkedin"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://github.com/jibm82"
+                        target="_blank"
+                        title="Github"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.facebook.com/jibm82"
+                        target="_blank"
+                        title="Facebook"
+                      >
+                        <i class="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://twitter.com/jibm_82"
+                        target="_blank"
+                        title="Twitter"
+                      >
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-4 col-md-6">
+              <div class="contact_container">
+                <form id="contact-form">
+                  <div class="field">
+                    <input
+                      type="text"
+                      id="name"
+                      class="form-control"
+                      name="name"
+                      placeholder="Enter Name"
+                      required
+                    />
+                  </div>
+
+                  <div class="field">
+                    <input
+                      type="email"
+                      id="email"
+                      class="form-control"
+                      name="email"
+                      placeholder="Enter Email"
+                      required
+                    />
+                  </div>
+
+                  <div class="field">
+                    <textarea
+                      id="message"
+                      class="form-control"
+                      name="message"
+                      placeholder="Enter Message"
+                      rows="6"
+                      required
+                    ></textarea>
+                  </div>
+
+                  <div class="field">
+                    <button type="submit" class="btn btn-dark">
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
     <script src="assets/javascript/jquery.paroller.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.28.7/dist/sweetalert2.all.min.js"></script>
     <script src="https://smtpjs.com/v2/smtp.js"></script>
     <script src="assets/javascript/main.js"></script>
-</body>
-
+  </body>
 </html>
